@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="commands" project="AdvancedText2SpeechApp" 
+    file="/AdvancedText2SpeechApp/src/commands" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="111" width="184" x="305" y="552"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="input" project="AdvancedText2SpeechApp" file="/AdvancedText2SpeechApp/src/input" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="113" width="191" x="773" y="323"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="model" project="AdvancedText2SpeechApp" file="/AdvancedText2SpeechApp/src/model" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="120" width="190" x="497" y="321"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="output" project="AdvancedText2SpeechApp" 
+    file="/AdvancedText2SpeechApp/src/output" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="114" width="191" x="628" y="117"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="testing" project="AdvancedText2SpeechApp" 
+    file="/AdvancedText2SpeechApp/src/testing" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="110" width="190" x="611" y="548"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="view" project="AdvancedText2SpeechApp" file="/AdvancedText2SpeechApp/src/view" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="121" width="171" x="306" y="117"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
